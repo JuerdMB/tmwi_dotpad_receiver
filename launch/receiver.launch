@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- PARAMETERS -->
+    <arg name="rviz_cfg"    default = "$(find dotpad_receiver)/launch/config/rgbd.rviz"/>
+  
+    <!-- TACTILE MAP WITH INTENT -->
+    <node name="dotpad_receiver_node" pkg="dotpad_receiver" type="dotpad_receiver" output="screen" />
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(arg rviz_cfg)" />
+
+</launch>
