@@ -1,6 +1,6 @@
 <launch>
 
     <!-- TACTILE MAP WITH INTENT -->
-    <node name="dotpad_receiver_node" pkg="dotpad_receiver" type="dotpad_receiver" output="screen" />
+    <node name="dotpad_receiver_node" pkg="tmwi_dotpad_receiver" type="tmwi_dotpad_receiver_node" output="screen" />
 
 </launch>
