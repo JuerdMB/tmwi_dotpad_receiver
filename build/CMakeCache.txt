@@ -112,7 +112,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=dotpad_receiver
+CMAKE_PROJECT_NAME:STATIC=tmwi_dotpad_receiver
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/rc.exe
@@ -193,6 +193,12 @@ dotpad_receiver_BINARY_DIR:STATIC=C:/catkin_ws/src/dotpad_receiver/build
 
 //Value Computed by CMake
 dotpad_receiver_SOURCE_DIR:STATIC=C:/catkin_ws/src/dotpad_receiver
+
+//Value Computed by CMake
+tmwi_dotpad_receiver_BINARY_DIR:STATIC=C:/catkin_ws/src/dotpad_receiver/build
+
+//Value Computed by CMake
+tmwi_dotpad_receiver_SOURCE_DIR:STATIC=C:/catkin_ws/src/dotpad_receiver
 
 
 ########################

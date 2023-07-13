@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>dotpad_receiver</name>
+  <name>tmwi_dotpad_receiver</name>
   <version>0.0.0</version>
   <description>The dotpad receiver package</description>
 

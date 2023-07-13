@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(dotpad_receiver)
+project(tmwi_dotpad_receiver)
 
 find_package(catkin REQUIRED COMPONENTS
     roscpp
@@ -21,5 +21,5 @@ include_directories(
     libs
 )
 
-add_executable(dotpad_receiver src/dotpad_receiver_node.cpp src/DotPadManager.cpp)
-target_link_libraries(dotpad_receiver ${catkin_LIBRARIES})
+add_executable(tmwi_dotpad_receiver src/tmwi_dotpad_receiver_node.cpp src/DotPadManager.cpp)
+target_link_libraries(tmwi_dotpad_receiver ${catkin_LIBRARIES})
