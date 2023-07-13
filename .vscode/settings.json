@@ -1,4 +1,12 @@
 {
     "ros.distro": "noetic",
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "python.autoComplete.extraPaths": [
+        "c:\\opt\\ros\\noetic\\x64\\lib/site-packages",
+        "C:\\opt\\ros\\noetic\\x64\\Lib\\site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "c:\\opt\\ros\\noetic\\x64\\lib/site-packages",
+        "C:\\opt\\ros\\noetic\\x64\\Lib\\site-packages"
+    ]
 }

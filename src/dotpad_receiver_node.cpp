@@ -1,7 +1,7 @@
 #include <ros/ros.h>
 #include "DotPadManager.h"
 
-CString DOTPAD_COMPORT = "9";
+CString DOTPAD_COMPORT = "5";
 ros::Publisher pub_screenstatus;
 
 int main(int argc, char **argv)
